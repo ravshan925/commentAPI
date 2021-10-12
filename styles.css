@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.list-item{
+  border-left: 3px solid #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+
+.list-item:hover{
+    background: rgb(143, 142, 142);
+}
+
+.name-title, .email-text,
+.phone-text, .name, .web-text{
+    color: #fff;
+    font-weight: bold;
+}
+
+.name-title{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.email-text{
+    font-size: 15px;
+    color: chartreuse;
+}
+
+.phone-text, .name{
+    font-size: 15px;
+}
+
+.name{
+    color: darkgoldenrod;
+}
+.web-text{
+    text-decoration: none;
+    color: rgb(0, 174, 255);
+}
+
+
+.list-item-three, .list-item-two{
+    background: #666;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    padding: 15px;
+}
+
+
+.list-item-two:hover, .list-item-three:hover{
+    background: rgb(121, 120, 120);
+}
+
+
+
+
+.post-title, .post-text{
+  color: #fff;
+}
+
+.post-title{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.post-text{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#list, #list1, #list2{
+    list-style: none;
+    width: 35%;
+    height: 625px;
+    overflow-y: scroll;
+    background: #333;
+    padding: 20px;
+}
+
+#list1,#list2{
+    background: #222;
+}
+
+.comment-title, .comment-text, .comment-email{
+    color: #fff;
+    font-weight: bold;
+}
+
+.comment-title{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.comment-email{
+    font-size: 15px;
+    margin: 10px 0;
+    color: darkorange;
+}
+
+.comment-text{
+    font-size: 16px;
+}
+
+.user-box{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
